@@ -1,0 +1,29 @@
+# Virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Generated audio output
+*.wav
+*.mp3
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Environment variables
+.env
+
+# Hugging Face / model cache (if stored locally)
+models/
+*.safetensors
+*.pt
+*.bin
